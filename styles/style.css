@@ -41,6 +41,8 @@
   line-height: 25px;
   font-weight: normal;
   z-index: 4;
+  margin-left: 0;
+  margin-right: 0;
 }
 .header__link {
   color: #2f80ed;
@@ -48,31 +50,22 @@
   text-decoration: none;
 }
 .header__square-pic {
-  display: flex;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
   margin-top: 64px;
-  justify-content: flex-end;
   position: absolute;
   z-index: 1;
-  right: 0;
-  top: 0;
+  right: 0%;
+  top: 0%;
 }
 .main-illustration {
-  display: flex;
   position: absolute;
   z-index: 2;
   width: 756px;
   height: 608px;
-  right: 0;
-  bottom: 0;
-  align-items: flex-end;
-  margin-right: 30px;
-}
-.header__square {
-  display: flex;
-  flex-direction: column-reverse;
+  right: 0%;
+  bottom: 0%;
 }
 
 .description {
@@ -153,6 +146,7 @@
   width: 1100px;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-left: 0;
 }
 
 .table__cell {
