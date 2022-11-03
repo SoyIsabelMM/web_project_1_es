@@ -32,6 +32,7 @@
   font-weight: bold;
   z-index: 4;
 }
+
 .header__subtitle {
   position: absolute;
   width: 388px;
@@ -41,14 +42,15 @@
   line-height: 25px;
   font-weight: normal;
   z-index: 4;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
 }
+
 .header__link {
   color: #2f80ed;
   margin-bottom: 30px;
   text-decoration: none;
 }
+
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -59,6 +61,7 @@
   right: 0%;
   top: 0%;
 }
+
 .main-illustration {
   position: absolute;
   z-index: 2;
