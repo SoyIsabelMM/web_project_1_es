@@ -1,7 +1,9 @@
 .kaufman__triagle {
     position: absolute;
-    background-size: 660px 636;
+    width: 660px;
+    height: 636px;
     top: 0;
     right: -124px;
     z-index: 0;
+    animation: rotation 20s linear infinite;
   }
